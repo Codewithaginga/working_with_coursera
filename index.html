@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <main>
@@ -23,14 +24,31 @@
             </div>
             <div>
                 <label for="user_password">Password</label><br>
-                <input type="password" id="user_password" name="user_password">
+                <input type="password" id="user_password" name="user_password" required minlength="3" maxlength="12">
             </div>
             <div>
                 <label for="user_confirm">Confirm Paasword</label><br>
                 <input type="password" id="user_confirm" name="user_confirm">
             </div>
             <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                <output>4</output>
+            </div>
+            <div>
+                <label for=" booking_people">Number of People</label>
                 <button type="submit">Sign Up</button>
+            </div>
+            <div>
+                <label for="booking_location">Location</label>
+                <input id="booking_location" name="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Dwntown"></option>
+                    <option value="Uptown"></option>
+                </datalist>
             </div>
         </form> 
     </main>
