@@ -28,11 +28,11 @@ num.filter(function (nums) {
 })
 
 //map
-[0,10,20,30,40,50].map( function(num) {
-    return num / 10
-})
+// [0,10,20,30,40,50].map( function(num) {
+//     return num / 10
+// })
 
-//const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
+const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
 const uniqueFruits = new Set(repetitiveFruits);
 console.log(uniqueFruits);
 
@@ -47,4 +47,18 @@ droneKeys.forEach( function(key) {
     result.push(key, drone[key])
 })
 console.log(result);
+
+//spread Operator
+
+const fruits = ['apple', 'pear', 'plum']
+const berries = ['blueberry', 'strawberry']
+const fruitsAndBerries = [...fruits, ...berries] // concatenate
+console.log(fruitsAndBerries); // outputs a single array
+
+const londonClubs = ['Arsenal', 'Palace'];
+const manchesterClubs = ['City', 'united']
+
+const combTwo = [...londonClubs, ...manchesterClubs];
+console.log(combTwo);
+
 
