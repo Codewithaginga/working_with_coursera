@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+}
+
+.logo{
+    width: 160px;
+    
+}
+
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+.nav-1 a{
+    font-size: 12px;
+}
+
+
+
+.nav-1 ul li{
+    display: inline-block;
+   padding: 0 15px;
+   
+    
+}
+
+.nav-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.nav-1 ul li a:hover{
+    color: rgb(1, 1, 39);
+}
+
+.nav-2{
+    display: flex;
+    margin-right: 150px;
+}
+
+.nav-2 ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.nav-2 ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    position: relative;  
+}
+.nav-2 ul li a::after{
+    content: '';
+    position: absolute;
+    background: white;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in;
+}
+.nav-2 ul li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+    cursor: pointer;
+}
+
+.bg-primary-400{
+    background-color: red;
+}
+.bg-secondary-400{
+    background-color: rgb(2, 2, 34);
+}
+.bg-neutral-100{
+    background-color: white;
+}
+.bg-secondary-500{
+    background-color: red;
+}
+
+.testimonial h4{
+    color: white;
+    text-align: center;
+    padding: 7px 0;
+}
+.testimonial h5{
+    padding-left: 34px;
+    color: grey;
+    padding-bottom: 10px;
+}
+hr{
+    width: 80%;
+    color: rgb(40, 39, 39);
+    margin-left: 35px;
+   
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.logos img{
+    width: 65px;
+}
+.logos h1{
+    font-size: 45px;
+    color: gray;
+}
+.logos h6, P{
+    color: white;
+    text-align: center;
+}
+
+.logos p{
+    padding-top: 20x;
+}
+
+/*grid layout*/
+
+.grid-col-span-2{
+    grid-column: span 2 ;
+   
+} 
+
+.container-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+  }
+
+  
+  
+
+  .testimonial h1{
+    padding: 10px;
+    color: white;
+  }
+
+  
+  .comeback{
+    display: flex;
+    gap: 30px;
+  } 
+

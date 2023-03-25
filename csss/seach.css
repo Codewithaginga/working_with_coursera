@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: brown;
+    text-align: black;
+}
+
+h1, h2{
+    margin: 20px;
+}
+
+div ul{
+    background-color: white;
+    box-shadow: inset 1px 1px 3px rgb(14, 0, 0);
+    padding: 20px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+P, h3{
+    margin: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    margin: 20px;
+    padding-top: 20px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: yellow;
+}
+
+.gunners{
+    border: 1px;
+    padding: 10px;
+}
+.gunners:hover{
+    box-shadow: 5px 0 25px black;
+}
+
+.text{
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 1px solid black;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+/* a:link {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: hotpink;
+}   */
+
+/*-------------------TABLE-------------------*/
+
+table{
+    width: 50%;
+    margin: 100px auto;
+}
+
+table,th,td{
+   border: 1px solid black;
+   border-collapse: collapse ;
+   text-align: center;
+   padding: 10px;
+   /* column-span: 4; */
+}
+
+/* capital css*/
+

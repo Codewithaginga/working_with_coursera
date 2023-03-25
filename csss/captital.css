@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding-top:25px;
+    height: 100px;
+}
+#nav {
+    line-height:35px;
+    background-color:#eeeeee;
+    height:480px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:80%;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+} */
+
+.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+} 
