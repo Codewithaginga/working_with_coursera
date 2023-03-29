@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+div{
+    text-align: center;
+}
+
+#logo{
+    width: 8rem;
+    margin: 50px 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(231, 137, 6);
+    font-weight: bold;
+}
+
+.promo{
+    background: gainsboro;
+    width: 80%;
+    text-align: center;
+    margin: 40px auto;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.places{
+    width: 20rem;
+    border-radius: 3px;
+    height: 17rem;
+    object-fit: cover;
+}
+
+/*--------class footer --------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: magenta;
+    
+}
+.footer-logo{
+    width: 100px;
+    height: 2rem;
+    object-fit: cover;
+    margin: 20px;
+}
+
+footer p{
+    margin: 20px;
+}
